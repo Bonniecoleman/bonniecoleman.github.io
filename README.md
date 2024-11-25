@@ -1,2 +1,2 @@
 # Welcome
-[Beomseong Kim's Portfolio website](https://bonniecoleman.github.io)
+[Beomseong Kim's Portfolio Website](https://bonniecoleman.github.io)
