@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fe38521-bf02-4ef8-b3f9-66cbf3d74339" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bank.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/bank.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,11 +64,24 @@
       <workItem from="1732953802471" duration="135000" />
       <workItem from="1733336471683" duration="4000" />
       <workItem from="1733957560870" duration="316000" />
-      <workItem from="1733957888366" duration="44000" />
+      <workItem from="1733957888366" duration="348000" />
+      <workItem from="1734979200046" duration="838000" />
+      <workItem from="1734998840121" duration="1178000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/bonniecoleman/Documents/Project/kaggle/Categorical Feature Encoding Challenge/second_submssion.ipynb</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
