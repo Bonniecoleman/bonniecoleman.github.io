@@ -266,6 +266,19 @@
                             <div class="cat">Logistic-Regression</div>
                         </div>
                     </div>
+
+                    <div class="single-portfolio col-sm-4 all datascience">
+                        <div class="relative">
+                            <div class="thumb">
+                                <div class="overlay overlay-bg"></div>
+                                <img class="image img-fluid img-modal" src="images/cactus.png" alt="Aerial Cactus Identification">
+                            </div>
+                        </div>
+                        <div class="p-inner">
+                            <h4>Aerial Cactus Identification</h4>
+                            <div class="cat">Convolutional-Neural-Network(CNN)</div>
+                        </div>
+                    </div>
     
                 </div>
             </div>
@@ -278,7 +291,7 @@
 	<div id="myModal1" class="modal">
         <div class="modal-content">
             <span class="buttonC">&times;</span>
-            <div class="jg modal-subheading" style="margin-bottom: 1em;">Bank Customer Churn Prediction</div> <!-- 아래 공백 추가 -->
+            <div class="jg modal-subheading" style="margin-bottom: 1em;">Bank Customer Churn Prediction</div>
             <p class="jg">Resource Code : <a href="https://github.com/Bonniecoleman/Bank-Customer-Churn-Prediction" target="_blank" style="cursor:pointer;color:#6666ff;"> Link </a></p>
             <p class="jg" style="margin-bottom: 0;">Abstract</p>
             <p>This project involves predicting customer churn in a bank using Q-learning RL model. The goal is to recommend effective actions to retain customers and improve overall retention rates.</p>
@@ -302,7 +315,7 @@
         <div class="modal-content">
             <span class="buttonC">&times;</span>
             <div class="jg modal-subheading" style="margin-bottom: 1em;">Bike Sharing Demand Prediction</div> 
-            <p class="jg">Resource Code : <a href="https://github.com/Bonniecoleman/Kaggle_competition/tree/main/Bike%20Sharing%20Demand" target="_blank" style="cursor:pointer;color:#6666ff;"> Link </a></p>
+            <p class="jg">Resource Code : <a href="https://www.kaggle.com/code/beomseongkim/random-forest-regression" target="_blank" style="cursor:pointer;color:#6666ff;"> Link </a></p>
             <p class="jg" style="margin-bottom: 0;">Abstract</p>
             <p>This Kaggle project implements a Random Forest Regression model to predict the demand for bike rentals. The model utilizes features like weather conditions, temperature, and seasonal factors to improve prediction accuracy.</p>
             <p class="jg" style="margin-bottom: 0;">Main Features</p>
@@ -350,7 +363,7 @@
         <span class="buttonC">&times;</span>
         <div class="jg modal-subheading" style="margin-bottom: 1em;">Categorical Feature Encoding Challenge</div>
         <p class="jg">Resource Code:
-            <a href="https://github.com/Bonniecoleman/Kaggle_competition/tree/main/Categorical%20Feature%20Encoding%20Challenge"
+            <a href="https://www.kaggle.com/code/beomseongkim/logistic-regression"
                target="_blank"
                style="cursor:pointer; color:#6666ff;">
                Link
@@ -380,11 +393,54 @@
     </div>
 </div>
 
+<div id="myModal5" class="modal">
+    <div class="modal-content">
+        <span class="buttonC">&times;</span>
+        <div class="jg modal-subheading" style="margin-bottom: 1em;">Aerial Cactus Identification</div>
+        <p class="jg">Resource Code:
+            <a href="https://www.kaggle.com/code/beomseongkim/cnn-model-0-9998"
+               target="_blank"
+               style="cursor:pointer; color:#6666ff;">
+               Link
+            </a>
+        </p>
+        <p class="jg" style="margin-bottom: 0;">Abstract</p>
+        <p>The project focuses on classifying aerial images to detect the presence of cacti using a Convolutional Neural Network (CNN). The dataset contains 17,500 labeled training images and 4,000 test images, all with a resolution of 32x32 pixels.</p>
+        <p class="jg" style="margin-bottom: 0;">Main Features</p>
+        <ul>
+            <li>Examined target class imbalance (75% positive, 25% negative) using pie charts and confirmed distribution consistency.</li>
+            <li>Applied random padding, horizontal/vertical flips, rotations, and normalization to improve model robustness.</li>
+            <li><b>CNN Architecture:</b>
+                <ul>
+                    <li>Five convolutional layers with Batch Normalization and LeakyReLU activation</li>
+                    <li>Pooling layers for down-sampling and Average Pooling before flattening</li>
+                    <li>Fully connected layers for final binary classification</li>
+                </ul>
+            </li>
+            <li><b>Training Process:</b> Used Adamax optimizer with a learning rate of 0.00006 and CrossEntropyLoss for 70 epochs.</li>
+            <li><b>Evaluation Metrics:</b> Computed AUC-ROC using PyTorch and scikit-learn for precise performance evaluation.</li>
+        </ul>
+        <p class="jg" style="margin-bottom: 0;">Development Environment</p>
+        <ul>
+            <li><b>Programming Language:</b> Python</li>
+            <li><b>IDE:</b> Jupyter Notebook</li>
+            <li><b>Libraries:</b> PyTorch, torchvision, pandas, matplotlib, scikit-learn, OpenCV</li>
+            <li>Dataset:
+                <a href="https://www.kaggle.com/competitions/aerial-cactus-identification/data"
+                   target="_blank"
+                   style="cursor:pointer; color:#6666ff;">
+                   Kaggle
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
 
 
 
-    <!-- Modal content -->
-    <div id="myModal5" class="modal">
+
+
+    <div id="myModal6" class="modal">
       <div class="modal-content">
         <span class="buttonC">&times;</span>   
         <div class='jg modal-subheading'>  </div>
