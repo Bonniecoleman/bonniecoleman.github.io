@@ -374,8 +374,10 @@
         <p class="jg" style="margin-bottom: 0;">Main Features</p>
         <ul>
             <li>Comprehensive encoding for binary, nominal, ordinal, and cyclical features</li>
-            <li>Exploratory Data Analysis (EDA) to analyze feature distributions</li>
-            <li>GridSearchCV for hyperparameter tuning</li>
+            <li>Nominal features encoded using one-hot encoding to capture categorical distinctions</li>
+            <li>Ordinal features mapped to numerical scales reflecting their inherent order</li>
+            <li>Cyclical features (days, months) transformed to preserve temporal patterns.</li>
+            <li>Systematic hyperparameter tuning using GridSearchCV, optimizing parameters such as regularization strength, solver type, and iteration limits for improved model performance.</li>
             <li><b>Private Leaderboard Score:</b> 0.80761</li>
         </ul>
         <p class="jg" style="margin-bottom: 0;">Development Environment</p>
