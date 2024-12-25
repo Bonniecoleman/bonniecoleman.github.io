@@ -409,7 +409,7 @@
         <p>The project focuses on classifying aerial images to detect the presence of cacti using a Convolutional Neural Network (CNN). The dataset contains 17,500 labeled training images and 4,000 test images, all with a resolution of 32x32 pixels.</p>
         <p class="jg" style="margin-bottom: 0;">Main Features</p>
         <ul>
-            <li>Examined target class imbalance (75% positive, 25% negative) using pie charts and confirmed distribution consistency.</li>
+            <li>Examined target class imbalance (75.1% positive, 24.9% negative) using pie charts and confirmed distribution consistency.</li>
             <li>Applied random padding, horizontal/vertical flips, rotations, and normalization to improve model robustness.</li>
             <li><b>CNN Architecture:</b>
                 <ul>
@@ -419,7 +419,7 @@
                 </ul>
             </li>
             <li><b>Training Process:</b> Used Adamax optimizer with a learning rate of 0.00006 and CrossEntropyLoss for 70 epochs.</li>
-            <li><b>Evaluation Metrics:</b> Computed AUC-ROC using PyTorch and scikit-learn for precise performance evaluation.</li>
+            <li><b>Evaluation Metrics:</b> Used ROC-AUC to assess the model's binary classification performance.</li>
             <li><b>Private Leaderboard Score:</b> 0.9998</li>
         </ul>
         <p class="jg" style="margin-bottom: 0;">Development Environment</p>
