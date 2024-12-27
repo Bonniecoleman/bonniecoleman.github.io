@@ -279,6 +279,19 @@
                             <div class="cat">Convolutional-Neural-Network(CNN)</div>
                         </div>
                     </div>
+
+                    <div class="single-portfolio col-sm-4 all datascience">
+                        <div class="relative">
+                            <div class="thumb">
+                                <div class="overlay overlay-bg"></div>
+                                <img class="image img-fluid img-modal" src="images/future_sales.png" alt="Predict Future Sales">
+                            </div>
+                        </div>
+                        <div class="p-inner">
+                            <h4>Predict Future Sales</h4>
+                            <div class="cat">LightGBM</div>
+                        </div>
+                    </div>
     
                 </div>
             </div>
@@ -407,7 +420,7 @@
             </a>
         </p>
         <p class="jg" style="margin-bottom: 0;">Abstract</p>
-        <p>The project focuses on classifying aerial images to detect the presence of cacti using a Convolutional Neural Network (CNN). The dataset contains 17,500 labeled training images and 4,000 test images, all with a resolution of 32x32 pixels.</p>
+        <p>The project focuses on classifying aerial images to detect the presence of cacti using a Convolutional Neural Network (CNN). The dataset contains 17,500 labeled training images and 4,000 test images, all with a resolution of 32 x 32 pixels.</p>
         <p class="jg" style="margin-bottom: 0;">Main Features</p>
         <ul>
             <li>Applied random padding, horizontal/vertical flips, rotations, and normalization to improve model robustness</li>
@@ -438,11 +451,72 @@
     </div>
 </div>
 
+<div id="myModal6" class="modal">
+    <div class="modal-content">
+        <span class="buttonC">&times;</span>
+        <div class="jg modal-subheading" style="margin-bottom: 1em;">Predict Future Sales</div>
+        <p class="jg">Resource Code:
+            <a href="https://www.kaggle.com/code/beomseongkim/lightgbm-0-87442"
+               target="_blank"
+               style="cursor:pointer; color:#6666ff;">
+               Link
+            </a>
+        </p>
+        <p class="jg" style="margin-bottom: 0;">Abstract</p>
+        <p>This project forecasts monthly sales based on historical daily sales data from a Russian software firm(1C Company). The workflow emphasizes capturing time-series characteristics by aggregating data at the monthly level and applying various preprocessing steps.</p>
+        <p class="jg" style="margin-bottom: 0;">Main Features</p>
+                <ul>
+            <li><b>Data Preprocessing:</b>
+                <ul>
+                    <li>Identified and removed outliers in price and sales volume to stabilize training</li>
+                    <li>Standardized shop IDs by merging names that appeared as duplicates due to slight variations</li>
+                </ul>
+            </li>
+            <li><b>Time-Series Structure:</b>
+                <ul>
+                    <li>Organized data by month (0–33) and treated the 34th month (November 2015) as the test set</li>
+                    <li>Created lag features for the past three months of sales, average price, and transaction counts</li>
+                </ul>
+            </li>
+            <li><b>Derived Variables:</b>
+                <ul>
+                    <li>Included the month a product was first sold (first_sold_month) to identify newly introduced items</li>
+                    <li>Calculated metrics like sales change rates and average lagged sales to capture trends</li>
+                </ul>
+            </li>
+            <li><b>Feature Engineering:</b>
+                <ul>
+                    <li>Converted categorical columns such as city and major_category with label encoding for the model</li>
+                    <li>Used downcasting on numeric columns to reduce memory usage, given the large data size</li>
+                </ul>
+            </li>
+            <li><b>Training Process:</b>
+                <ul>
+                    <li>Employed LightGBM, specifying categorical features like city and shop_id to reflect time-series factors</li>
+                    <li>Used months 0–32 for training, month 33 for validation, and month 34 for testing</li>
+                    <li>Clipped predictions between 0 and 20 and optimized for RMSE</li>
+                </ul>
+            </li>
+            <li><b>Evaluation Metrics:</b> RMSE was used to measure how closely the predicted sales matched actual figures</li>
+            <li><b>Private Leaderboard Score:</b> 0.87442 (top 10.2%)</li>
+        </ul>
+            <li><b>Programming Language:</b> Python</li>
+            <li><b>IDE:</b> Jupyter Notebook</li>
+            <li><b>Libraries:</b> pandas, NumPy, scikit-learn, LightGBM, seaborn, matplotlib</li>
+            <li>Dataset:
+                <a href="https://www.kaggle.com/code/beomseongkim/lightgbm-0-87442/input"
+                   target="_blank"
+                   style="cursor:pointer; color:#6666ff;">
+                   Kaggle
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
 
 
 
-
-    <div id="myModal6" class="modal">
+    <div id="myModal7" class="modal">
       <div class="modal-content">
         <span class="buttonC">&times;</span>   
         <div class='jg modal-subheading'>  </div>
