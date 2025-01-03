@@ -299,6 +299,19 @@
                             <div class="cat">LightGBM</div>
                         </div>
                     </div>
+
+                    <div class="single-portfolio col-sm-4 all datascience">
+                        <div class="relative">
+                            <div class="thumb">
+                                <div class="overlay overlay-bg"></div>
+                                <img class="image img-fluid img-modal" src="images/time-series.png" alt="LA Crime Trends Analysis">
+                            </div>
+                        </div>
+                        <div class="p-inner">
+                            <h4>LA Crime Trends Analysis</h4>
+                            <div class="cat">Statistical Analysis</div>
+                        </div>
+                    </div>
     
                 </div>
             </div>
@@ -523,12 +536,64 @@
 
 
 
-    <div id="myModal7" class="modal">
-      <div class="modal-content">
-        <span class="buttonC">&times;</span>   
-        <div class='jg modal-subheading'>  </div>
-      </div>
-  </div>
+<div id="myModal7" class="modal">
+    <div class="modal-content">
+        <span class="buttonC">&times;</span>
+        <div class="jg modal-subheading" style="margin-bottom: 1em;">LA Crime Trends Analysis</div>
+        <p class="jg">Resource Code:
+            <a href="https://github.com/Bonniecoleman/LA-Crime-Trends-Pre-Post-COVID"
+               target="_blank"
+               style="cursor:pointer; color:#6666ff;">
+               GitHub Repository
+            </a>
+        </p>
+        <p class="jg" style="margin-bottom: 0;">Abstract</p>
+        <p>This project examines crime trends in Los Angeles from 2010 to the present, with a particular focus on comparing crime rates and types before and after the COVID-19 pandemic. The analysis combines statistical testing with visual exploration to uncover significant shifts in crime proportions and rates.</p>
+        <p class="jg" style="margin-bottom: 0;">Main Features</p>
+        <ul>
+            <li><b>Data Cleaning:</b>
+                <ul>
+                    <li>Standardized and combined data from two datasets (2010–2019 and 2020–present)</li>
+                    <li>Addressed missing values and reformatted date fields for time-series analysis</li>
+                </ul>
+            </li>
+            <li><b>Crime Categorization:</b>
+                <ul>
+                    <li>Classified crimes into violent, property, and sex crimes based on descriptions</li>
+                    <li>Created additional columns for period (Pre-COVID vs. Post-COVID) for statistical comparison</li>
+                </ul>
+            </li>
+            <li><b>Feature Engineering:</b>
+                <ul>
+                    <li>Generated proportions of violent, property, and sex crimes for each period</li>
+                    <li>Calculated monthly total crime counts to assess overall trends</li>
+                </ul>
+            </li>
+            <li><b>Statistical Analysis:</b>
+                <ul>
+                    <li>Applied a difference-of-proportions test to compare violent crime proportions pre and post-COVID</li>
+                    <li>Conducted a Welch Two-Sample t-test to compare monthly average crime rates</li>
+                </ul>
+            </li>
+            <li><b>Visualization:</b>
+                <ul>
+                    <li>Plotted time series of violent, property, and sex crimes from 2010 to the present</li>
+                    <li>Visualized crime proportions with bar charts for comparison</li>
+                </ul>
+            </li>
+            <li><b>Programming Language:</b> R</li>
+            <li><b>IDE:</b> R-Studio</li>
+            <li><b>Libraries:</b> tidyverse, lubridate, ggplot2, dplyr, knitr, rmarkdown</li>
+            <li>Dataset:
+                <a href="https://catalog.data.gov/dataset/crime-data-from-2020-to-present"
+                   target="_blank"
+                   style="cursor:pointer; color:#6666ff;">
+                   Data.gov
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
 
 
 
