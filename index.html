@@ -312,6 +312,19 @@
                             <div class="cat">Statistical Analysis</div>
                         </div>
                     </div>
+
+                    <div class="single-portfolio col-sm-4 all datascience">
+                        <div class="relative">
+                            <div class="thumb">
+                                <div class="overlay overlay-bg"></div>
+                                <img class="image img-fluid img-modal" src="images/porto.png" alt="Porto Seguro’s Safe Driver Prediction">
+                            </div>
+                        </div>
+                        <div class="p-inner">
+                            <h4>Porto Seguro’s Safe Driver Prediction</h4>
+                            <div class="cat">LightGBM</div>
+                        </div>
+                    </div>
     
                 </div>
             </div>
@@ -589,6 +602,86 @@
                    target="_blank"
                    style="cursor:pointer; color:#6666ff;">
                    Data.gov
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+<div id="myModal8" class="modal">
+    <div class="modal-content">
+        <span class="buttonC">&times;</span>
+        <div class="jg modal-subheading" style="margin-bottom: 1em;">Porto Seguro’s Safe Driver Prediction</div>
+        <p class="jg">Resource Code:
+            <a href="https://www.kaggle.com/code/beomseongkim/lightgbm-0-29158"
+               target="_blank"
+               style="cursor:pointer; color:#6666ff;">
+               Link
+            </a>
+        </p>
+
+        <p class="jg" style="margin-bottom: 0;">Abstract</p>
+        <p>
+            This project deals with identifying the likelihood of a driver initiating an insurance claim. The data is anonymized
+            and contains various types of features, such as binary indicators, categorical attributes, and continuous values.
+            I explore effective preprocessing methods to handle missing values and remove uninformative variables, then
+            apply hyperparameter tuning with Bayesian Optimization for maximum predictive accuracy.
+        </p>
+
+        <p class="jg" style="margin-bottom: 0;">Main Features</p>
+        <ul>
+            <li><b>Data Preprocessing:</b>
+                <ul>
+                    <li>Converted -1 into NaN to accurately track real missing values</li>
+                    <li>Identified features with excessive missing data or low predictive power (e.g., ps_calc_* features) and removed them</li>
+                    <li>Encoded nominal (categorical) features using One-Hot Encoding</li>
+                </ul>
+            </li>
+            <li><b>Feature Engineering:</b>
+                <ul>
+                    <li>Aggregated <code>ind</code> features into a single <code>mix_ind</code> column for new combinational signals</li>
+                    <li>Created additional features such as <code>num_missing</code> to capture the extent of missing data per row</li>
+                    <li>Used feature counts (e.g., <code>feature_count</code>) to incorporate frequency information for categorical values</li>
+                </ul>
+            </li>
+            <li><b>Model Training:</b>
+                <ul>
+                    <li>LightGBM was employed, given its efficiency with large datasets and ability to handle missing values</li>
+                    <li>Constructed sparse matrices from processed features to reduce memory usage</li>
+                    <li>Experimented with <b>StratifiedKFold</b> to address the class imbalance</li>
+                </ul>
+            </li>
+            <li><b>Hyperparameter Optimization:</b>
+                <ul>
+                    <li>Bayesian Optimization was used to systematically explore the hyperparameter space</li>
+                    <li>Tuned parameters like <code>num_leaves</code>, <code>lambda_l1</code>, <code>lambda_l2</code>, <code>bagging_fraction</code>, and <code>feature_fraction</code></li>
+                    <li>Fitted multiple models and evaluated their performance on a hold-out validation set using the Gini coefficient</li>
+                </ul>
+            </li>
+            <li><b>Evaluation Metrics:</b>
+                <ul>
+                    <li>The <b>Normalized Gini Coefficient</b> was the primary measure, implemented as a custom function</li>
+                </ul>
+            </li>
+            <li><b>Key Observations:</b>
+                <ul>
+                    <li>Features like <code>ps_ind_14</code> and <code>ps_calc_*</code> were dropped due to weak predictive power or statistical unreliability</li>
+                    <li>The final model used five-fold cross-validation for robust scoring</li>
+                    <li>Minor changes in hyperparameters had a noticeable impact on Gini scores, emphasizing the need for precise tuning</li>
+                </ul>
+            </li>
+        </ul>
+
+        <ul>
+            <li><b>Programming Language:</b> Python</li>
+            <li><b>IDE:</b> Jupyter Notebook</li>
+            <li><b>Libraries:</b> pandas, NumPy, seaborn, scikit-learn, LightGBM, missingno, matplotlib, Bayesian Optimization</li>
+            <li>Dataset:
+                <a href="https://www.kaggle.com/competitions/porto-seguro-safe-driver-prediction/data"
+                   target="_blank"
+                   style="cursor:pointer; color:#6666ff;">
+                   Kaggle
                 </a>
             </li>
         </ul>
