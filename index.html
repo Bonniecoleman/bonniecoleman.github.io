@@ -335,6 +335,20 @@
                             <div class="cat">SQL</div>
                         </div>
                     </div>
+
+                    <div class="single-portfolio col-sm-4 all datascience">
+                        <div class="relative">
+                            <div class="thumb">
+                                <div class="overlay overlay-bg"></div>
+                                <img class="image img-fluid img-modal" src="images/spot.png" alt="Cathode Spot Detection">
+                            </div>
+                        </div>
+                        <div class="p-inner">
+                            <h4>Cathode Spot Detection</h4>
+                            <div class="cat">LSTM-AE + XGBoost (anomaly detection)</div>
+                        </div>
+                    </div>
+
     
                 </div>
             </div>
@@ -733,6 +747,44 @@
             </li>
         </ol>
 
+    </div>
+</div>
+
+<div id="myModal10" class="modal">
+    <div class="modal-content">
+        <span class="buttonC">&times;</span>
+        <div class="jg modal-subheading" style="margin-bottom: 1em;">Cathode Spot Detection</div>
+
+        <p class="jg">Slide Deck:
+            <a href="https://docs.google.com/presentation/d/1fWOctVKvp0kfeMYsL-ng-lo8WPQ462VCkymB6cF_QMw/edit?usp=sharing"
+               target="_blank"
+               style="cursor:pointer; color:#6666ff;">
+               Link
+            </a>
+        </p>
+
+        <p class="jg" style="margin-bottom: 0;">Abstract</p>
+        <p>
+            This project addresses real-time detection of cathode spots in a fusion injector system by analyzing over 10 million voltage data points. An ensemble anomaly detection model combining an LSTM Autoencoder and XGBoost was developed in collaboration with 5 Ph.D. researchers. The goal was to detect anomalous plasma behaviors with high accuracy and low latency, contributing to safer and more efficient fusion experiments.
+        </p>
+
+        <p class="jg" style="margin-bottom: 0;">Main Features</p>
+        <ul>
+            <li>Preprocessed massive time-series voltage data (10M+ points) using rolling window segmentation and standardization</li>
+            <li>Constructed an LSTM Autoencoder to learn normal voltage patterns and detect deviations</li>
+            <li>Used XGBoost as a second-stage classifier to refine anomaly scoring based on reconstruction error and handcrafted statistical features</li>
+            <li>Achieved 90% recall, 85% precision, reduced false positives by 45%, and detection latency by 60%</li>
+            <li>Performed extensive threshold calibration and post-processing to ensure real-time deployment feasibility</li>
+        </ul>
+
+        <p class="jg" style="margin-bottom: 0;">Development Environment</p>
+        <ul>
+            <li><b>Programming Language:</b> Python</li>
+            <li><b>IDE:</b> Visual Studio Code</li>
+            <li><b>Libraries:</b> PyTorch, scikit-learn, XGBoost, NumPy, pandas, Matplotlib</li>
+        </ul>
+
+        <p style="color: red; font-style: italic;">Note: The source code is confidential due to research agreement terms, but technical details are available upon request or during interviews.</p>
     </div>
 </div>
 
