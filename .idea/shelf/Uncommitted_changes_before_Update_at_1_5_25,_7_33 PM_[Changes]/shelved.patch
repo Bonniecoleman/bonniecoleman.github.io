@@ -1,0 +1,129 @@
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"Black\">\n    <option name=\"sdkName\" value=\"/opt/anaconda3\" />\n  </component>\n  <component name=\"ProjectRootManager\" version=\"2\" project-jdk-name=\"/opt/anaconda3\" project-jdk-type=\"Python SDK\" />\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision 82e42f288472e9dca1f04bd6b50d4ba290207f39)
++++ b/.idea/misc.xml	(date 1736127197081)
+@@ -3,5 +3,5 @@
+   <component name="Black">
+     <option name="sdkName" value="/opt/anaconda3" />
+   </component>
+-  <component name="ProjectRootManager" version="2" project-jdk-name="/opt/anaconda3" project-jdk-type="Python SDK" />
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.11" project-jdk-type="Python SDK" />
+ </project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"2fe38521-bf02-4ef8-b3f9-66cbf3d74339\" name=\"Changes\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/index.html\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 1\n}</component>\n  <component name=\"ProjectId\" id=\"2pYnlYtlCkeNKf9exzPjp8azi7D\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"foldersAlwaysOnTop\" value=\"false\" />\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\n    &quot;git-widget-placeholder&quot;: &quot;main&quot;,\n    &quot;last_opened_file_path&quot;: &quot;/Users/bonniecoleman/Documents/Project/website&quot;,\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\n  }\n}</component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/images\" />\n    </key>\n  </component>\n  <component name=\"SharedIndexes\">\n    <attachedChunks>\n      <set>\n        <option value=\"bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PY-241.14494.241\" />\n        <option value=\"bundled-python-sdk-0509580d9d50-28c9f5db9ffe-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.14494.241\" />\n      </set>\n    </attachedChunks>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"2fe38521-bf02-4ef8-b3f9-66cbf3d74339\" name=\"Changes\" comment=\"\" />\n      <created>1732952027826</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1732952027826</updated>\n      <workItem from=\"1732952028839\" duration=\"1770000\" />\n      <workItem from=\"1732953802471\" duration=\"135000\" />\n      <workItem from=\"1733336471683\" duration=\"4000\" />\n      <workItem from=\"1733957560870\" duration=\"316000\" />\n      <workItem from=\"1733957888366\" duration=\"348000\" />\n      <workItem from=\"1734979200046\" duration=\"838000\" />\n      <workItem from=\"1734998840121\" duration=\"1692000\" />\n      <workItem from=\"1735076853204\" duration=\"120000\" />\n      <workItem from=\"1735083833382\" duration=\"104000\" />\n      <workItem from=\"1735083940362\" duration=\"11000\" />\n      <workItem from=\"1735089291993\" duration=\"3000\" />\n      <workItem from=\"1735092929708\" duration=\"1563000\" />\n      <workItem from=\"1735094601629\" duration=\"514000\" />\n      <workItem from=\"1735095134645\" duration=\"328000\" />\n      <workItem from=\"1735095479157\" duration=\"175000\" />\n      <workItem from=\"1735095717360\" duration=\"541000\" />\n      <workItem from=\"1735097158806\" duration=\"221000\" />\n      <workItem from=\"1735193223139\" duration=\"3000\" />\n      <workItem from=\"1735296652761\" duration=\"750000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"XDebuggerManager\">\n    <breakpoint-manager>\n      <breakpoints>\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"jupyter-line\">\n          <url>notebook:///Users/bonniecoleman/Documents/Project/kaggle/Categorical Feature Encoding Challenge/second_submssion.ipynb</url>\n          <line>14</line>\n          <option name=\"timeStamp\" value=\"1\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"jupyter-line\">\n          <url>notebook:///Users/bonniecoleman/Documents/Project/kaggle/Categorical Feature Encoding Challenge/second_submssion.ipynb</url>\n          <line>10</line>\n          <option name=\"timeStamp\" value=\"2\" />\n        </line-breakpoint>\n      </breakpoints>\n    </breakpoint-manager>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 82e42f288472e9dca1f04bd6b50d4ba290207f39)
++++ b/.idea/workspace.xml	(date 1736127197080)
+@@ -4,7 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="2fe38521-bf02-4ef8-b3f9-66cbf3d74339" name="Changes" comment="">
++    <list default="true" id="2fe38521-bf02-4ef8-b3f9-66cbf3d74339" name="Changes" comment="added SQL category">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+     </list>
+@@ -16,6 +16,18 @@
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
++  <component name="GitHubPullRequestSearchHistory">{
++  &quot;lastFilter&quot;: {
++    &quot;state&quot;: &quot;OPEN&quot;,
++    &quot;assignee&quot;: &quot;Bonniecoleman&quot;
++  }
++}</component>
++  <component name="GithubPullRequestsUISettings">{
++  &quot;selectedUrlAndAccountId&quot;: {
++    &quot;url&quot;: &quot;https://github.com/Bonniecoleman/bonniecoleman.github.io.git&quot;,
++    &quot;accountId&quot;: &quot;fc78ec73-ae79-46e2-83ed-3cf9503058c5&quot;
++  }
++}</component>
+   <component name="ProjectColorInfo">{
+   &quot;associatedIndex&quot;: 1
+ }</component>
+@@ -47,8 +59,8 @@
+   <component name="SharedIndexes">
+     <attachedChunks>
+       <set>
+-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PY-241.14494.241" />
+-        <option value="bundled-python-sdk-0509580d9d50-28c9f5db9ffe-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.14494.241" />
++        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.24807.21" />
++        <option value="bundled-python-sdk-00717045f1d3-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.24807.21" />
+       </set>
+     </attachedChunks>
+   </component>
+@@ -78,13 +90,43 @@
+       <workItem from="1735095717360" duration="541000" />
+       <workItem from="1735097158806" duration="221000" />
+       <workItem from="1735193223139" duration="3000" />
+-      <workItem from="1735296652761" duration="750000" />
++      <workItem from="1735296652761" duration="783000" />
++      <workItem from="1735298313600" duration="5000" />
++      <workItem from="1735355149146" duration="697000" />
++      <workItem from="1735355940374" duration="197000" />
++      <workItem from="1735427905788" duration="14000" />
++      <workItem from="1735430094786" duration="3000" />
++      <workItem from="1735433540333" duration="1000" />
++      <workItem from="1735642861430" duration="303000" />
++      <workItem from="1735938954180" duration="2699000" />
++      <workItem from="1736125921440" duration="1274000" />
+     </task>
++    <task id="LOCAL-00001" summary="added SQL category">
++      <option name="closed" value="true" />
++      <created>1735643153085</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1735643153085</updated>
++    </task>
++    <task id="LOCAL-00002" summary="added SQL category">
++      <option name="closed" value="true" />
++      <created>1735941937491</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1735941937492</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="3" />
+   </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="added SQL category" />
++    <option name="LAST_COMMIT_MESSAGE" value="added SQL category" />
++  </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+       <breakpoints>
+@@ -97,6 +139,16 @@
+           <url>notebook:///Users/bonniecoleman/Documents/Project/kaggle/Categorical Feature Encoding Challenge/second_submssion.ipynb</url>
+           <line>10</line>
+           <option name="timeStamp" value="2" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
++          <url>notebook:///Users/bonniecoleman/Documents/Project/kaggle/Porto Driver's Safe Driver Prediction/second_submission (LightGBM).ipynb</url>
++          <line>11</line>
++          <option name="timeStamp" value="3" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
++          <url>notebook:///Users/bonniecoleman/Documents/Project/kaggle/Porto Driver's Safe Driver Prediction/second_submission (LightGBM).ipynb</url>
++          <line>8</line>
++          <option name="timeStamp" value="4" />
+         </line-breakpoint>
+       </breakpoints>
+     </breakpoint-manager>

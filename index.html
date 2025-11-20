@@ -1,824 +1,513 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Beomseong Kim's portfolio</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" href="css/animate.css">
-	<link rel="stylesheet" href="css/flexslider.css">
-	<link rel="stylesheet" href="fonts/icomoon/style.css">
-
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/modal-dialog.css">
-	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap" rel="stylesheet">
-	
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beomseong Kim | Data Scientist</title>
+    <meta name="description" content="Portfolio of Beomseong Kim, a Data Scientist based in Seoul, South Korea.">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Override font-family with Inter if loaded, else system */
+        body { font-family: 'Inter', var(--font-main); }
+        /* Hide modal content sources */
+        .modal-source { display: none; }
+    </style>
 </head>
-<body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
+<body>
 
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Beomseong Kim</a>
+            <div class="nav-toggle">
+                <span class="icon-menu"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#history" class="nav-link">History</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+            </ul>
+        </div>
+    </nav>
 
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <span class="hero-subtitle">Data Scientist</span>
+            <h1 class="hero-title">Hello, I'm Beomseong Kim</h1>
+            <p class="hero-description">I transform complex data into actionable insights. Specializing in Machine Learning, Statistical Analysis, and Data Visualization.</p>
+            <div class="hero-btns">
+                <a href="#portfolio" class="btn btn-primary">View Work</a>
+                <a href="#about" class="btn btn-outline">More About Me</a>
+            </div>
+        </div>
+    </section>
 
-	<nav class="navbar navbar-expand-lg site-navbar navbar-light bg-light" id="pb-navbar">
-
-		<div class="container">
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-
-
-			<div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample09">
-				<ul class="navbar-nav">
-					<li class="nav-item"><a class="nav-link" href="#section-home">Home</a></li>
-					<li class="nav-item"><a class="nav-link" href="#section-about">About</a></li>
-					<li class="nav-item"><a class="nav-link" href="#section-resume">History</a></li>
-					
-					<li class="nav-item"><a class="nav-link" href="#section-portfolio">Portfolio</a></li>
-					
-			
-				</ul>
-			</div>
-		</div>
-	</nav>
-
-
-
-
-	<section class="site-hero" style="background-image: url(images/profile_back.jpg);" id="section-home" data-stellar-background-ratio="0.5">
-		<div class="container">
-			<div class="row intro-text align-items-center justify-content-center">
-				<div class="col-md-10 text-center pt-5">
-
-					<h1 class="site-heading site-animate">Hello, I'm <strong class="d-block">Beomseong Kim</strong></h1>
-					<strong class="d-block text-white text-uppercase letter-spacing">and this is my portfolio</strong>
-
-				</div>
-			</div>
-		</div>
-	</section> <!-- section -->
-
-
-    <section class="site-section" id="section-about">
+    <!-- About Section -->
+    <section id="about">
         <div class="container">
-            <div class="row mb-5 align-items-center">
-                <div class="col-lg-6 pr-lg-5 mb-5 mb-lg-0">
-                    <img src="images/profile.jpg" alt="Image placeholder" class="img-fluid">
+            <div class="section-title fade-in">
+                <h2>About Me</h2>
+            </div>
+            <div class="about-content fade-in">
+                <div class="about-img-wrapper">
+                    <img src="images/profile.jpg" alt="Beomseong Kim" class="about-img">
                 </div>
-                <div class="col-lg-6 pl-lg-1">
-                    <div class="section-heading">
-                        <h2>About <strong>Me</strong></h2>
+                <div class="about-text">
+                    <h3>Data Scientist</h3>
+                    <p>I am a Data Scientist based in Houston, Texas. I have a passion for solving problems with data and building meaningful projects.</p>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/Bonniecoleman" target="_blank" class="social-icon" title="GitHub"><span class="icon-github"></span></a>
+                        <a href="https://www.linkedin.com/in/beomseong-kim/" target="_blank" class="social-icon" title="LinkedIn"><span class="icon-linkedin22"></span></a>
+                        <a href="mailto:bkim000827@gmail.com" class="social-icon" title="Email"><span class="icon-envelope"></span></a>
+                        <a href="https://www.kaggle.com/beomseongkim" target="_blank" class="social-icon" title="Kaggle">K</a>
+                        <a href="https://public.tableau.com/app/profile/beomseong.kim" target="_blank" class="social-icon" title="Tableau">T</a>
                     </div>
-                    <p class="lead" style="margin-bottom: 20px;">Aspiring Data Scientist, Data Analyst</p>
-                    <p class="jg" style="margin-bottom: 10px;">
-                        Linkedin: <a href='https://www.linkedin.com/in/beomseong-kim/' target="_blank" style="cursor:pointer;color:#6666ff;">Link</a>
-                    </p>
-                    <p class="jg" style="margin-bottom: 10px;">
-                        Kaggle: <a href='https://www.kaggle.com/beomseongkim' target="_blank" style="cursor:pointer;color:#6666ff;">Link</a>
-                    </p>
-                    <p class="jg" style="margin-bottom: 10px;">
-                        Github: <a href='https://github.com/Bonniecoleman' target="_blank" style="cursor:pointer;color:#6666ff;">Link</a>
-                    </p>
-                    <p class="jg" style="margin-bottom: 10px;">
-                        Tableau: <a href='https://public.tableau.com/app/profile/beomseong.kim' target="_blank" style="cursor:pointer;color:#6666ff;">Link</a>
-                    </p>
-                    <p class="jg" style="margin-bottom: 10px;">
-                        E-mail: <a href="mailto:bkim000827@gmail.com" style="cursor:pointer;color:#6666ff;">bkim000827@gmail.com</a>
-                    </p>
 
-    
-                    <p class="big" style="margin-top: 20px;">Skill Stack</p>
-    
-                    <p class="jg">Data Science</p>
-                    <ul class="jg" style="margin-bottom: 15px;">
-                        <li>Statistical Analysis & Hypothesis Testing</li>
-                        <li>Machine Learning & Reinforcement Learning</li>
-                        <li>Data Mining & Feature Engineering</li>
-                        <li>BeautifulSoup & Selenium for Web Scraping</li>
-                        <li>Advanced SQL for data manipulation and querying</li>
-                    </ul>
-    
-                    <p class="jg">Data Visualization</p>
-                    <ul class="jg" style="margin-bottom: 20px;">
-                        <li>Tableau, Matplotlib, Seaborn</li>
-                    </ul>
-    
-                    <p class="big">Programming Languages</p>
-                    <p class="jg" style="margin-bottom: 0;">
-                        <strong>Python:</strong> Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow, Keras<br>
-                        <strong>R:</strong> Markdown, dplyr, ggplot2, tidyr<br>
-                        <strong>Low Level:</strong> NoSQL (MongoDB), MySQL
-                    </p>
-
+                    <div class="skills-container">
+                        <div class="skills-category">
+                            <h4>Data Science</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Statistical Analysis</span>
+                                <span class="skill-tag">Machine Learning</span>
+                                <span class="skill-tag">Reinforcement Learning</span>
+                                <span class="skill-tag">Data Mining</span>
+                                <span class="skill-tag">Feature Engineering</span>
+                                <span class="skill-tag">Web Scraping</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skills-category">
+                            <h4>Programming & Tools</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">R</span>
+                                <span class="skill-tag">SQL</span>
+                                <span class="skill-tag">Tableau</span>
+                                <span class="skill-tag">Pandas</span>
+                                <span class="skill-tag">TensorFlow</span>
+                                <span class="skill-tag">PyTorch</span>
+                                <span class="skill-tag">MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    
 
-		</div>
-	</section>
-
-    <section class="site-section " id="section-resume"></section>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 mb-5">
-					<div class="section-heading text-center">
-						<h2><strong>History</strong></h2>
-					</div>
-				</div>
-
-				<div class="col-md-6">
-                    <h2 class="mb-5">Education</h2>
-                    <div class="resume-item mb-4">
-                        <span class="date"><span class="icon-calendar"></span> September 2021 - December 2025</span>
-                        <h3>University of Wisconsin-Madison<br> 
-                        <span style="font-size: 0.8em; font-weight: normal;">- B.A in Data Science</span></h3>
-                    </div>
-                </div>
-			</div>
-			<div class="row">
-				<div class="col-md-6">
-					<h2 class="mb-5">Career</h2>
-
-					<div class="resume-item mb-4">
-						<span class="date"><span class="icon-calendar"></span> March 2024 - Present</span>
-						<h3>The Pegasus Research Group</h3>
-						<p>About Comapny : One of the leading fusion research labs <br>
-						Position : ML/AI Undergraduate Intern <br>
-						Work : Developed data analysis software 
-
-					</p>
-					<p><a href='https://pegasus.ep.wisc.edu/' target="_blank" style="cursor:pointer;color:#6666ff;"> Link </a></p>
-					</div>
-
-
-					<div class="resume-item mb-4">
-						<span class="date"><span class="icon-calendar"></span> October 2023 - January 2024</span>
-						<h3>ORS Bearing Inc.</h3>
-						<p>About Company : Global Manufacturer of Grinding Machine<br>
-							Position : Business Analyst Intern<br>
-						Work : Analyzed global machine tool market data to identify trends and support strategy. </p>
-						<p><a href='https://orskorea.com/en/' target="_blank" style="cursor:pointer;color:#6666ff;"> Link </a></p>
-						
-					</div>
-					
-					<div class="resume-item mb-4">
-						<span class="date"><span class="icon-calendar"></span> January 2022 - July 2023</span>
-						<h3>Rupublic of Korea Army</h3>
-						<p>Position: Radar Operator <br>
-						Work : Operated Radar systems to track and identify targets over territorial waters</p>
-						
-					</div>
-				</div>
-
-				<div class="col-md-6">
-					<h2 class="mb-5">Experience</h2>
-					<div class="resume-item mb-4">
-						<span class="date"><span class="icon-calendar"></span> June 03 2024 - June 14 2024</span>
-						<h3>AI4Fusion</h3>
-						<p>Description : <br>
-							- One of 14 undergraduates selected for a fully funded, 
-                            two-week intensive ML/AI course at the College of William and Mary</p>
-                        <p><a href='https://news.wm.edu/2024/06/24/the-sun-in-the-jar-a-wm-summer-school-helps-lead-the-way-towards-ai-powered-nuclear-fusion/' target="_blank" style="cursor:pointer;color:#6666ff;"> Link </a> <br></p>
-					</div>
-
-					<div class="resume-item mb-4">
-						<span class="date"><span class="icon-calendar"></span> March 2024 - Present</span>
-						<h3>Likelion_Wisconsin (Founder)</h3>
-						<p>Description : Founded Likelion Wisconsin Chapter, a student-run Tech Entrepreneurship Community affiliated with LikeLion, the
-                            largest coding boot camp non-profit company in South Korea</p>
-			<p><a href='https://us.likelion.net/' target="_blank" style="cursor:pointer;color:#6666ff;"> Link </a> <br></p>
-                        </div>
-
-				</div>
-			</div>
-		</div>
-	</section> <!-- .section -->
-
-
-
-    <section class="site-section" id="section-portfolio">
+    <!-- History Section -->
+    <section id="history" class="bg-alt">
         <div class="container">
-            <div class="row">
-                <div class="section-heading text-center col-md-12">
-                    <h2><strong>Portfolio</strong><br></h2>
-                    (Click images to show details)
+            <div class="section-title fade-in">
+                <h2>History</h2>
+            </div>
+            
+            <div class="timeline fade-in">
+                <!-- Education -->
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <span class="date">Sep 2021 - Dec 2025</span>
+                        <h3>University of Wisconsin-Madison</h3>
+                        <p>B.A in Data Science</p>
+                    </div>
                 </div>
-            </div>
-            <div class="filters">
-                <ul>
-                    <li class="active" data-filter="*">All</li>
-                    <li data-filter=".datascience">Data Science</li>
-                    <li data-filter=".datavisualization">Data Visualization</li>
-                    <li data-filter=".sql">SQL</li>
-                </ul>
-            </div>
-    
-            <div class="filters-content">
-                <div class="row grid">
 
-                    <div class="single-portfolio col-sm-4 all datascience">
-                        <div class="relative">
-                            <div class="thumb">
-                                <div class="overlay overlay-bg"></div>
-                                <img class="image img-fluid img-modal" src="images/bank.png" alt="">
-                            </div>                             
-                        </div>
-                        <div class="p-inner">
-                            <h4>Bank Customer Churn Prediction</h4>
-                            <div class="cat">Reinforcement-Learning</div>
-                        </div>                                         
+                <!-- Experience -->
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <span class="date">Mar 2024 - Present</span>
+                        <h3>The Pegasus Research Group</h3>
+                        <p><strong>ML/AI Undergraduate Intern</strong></p>
+                        <p>Developed data analysis software for a leading fusion research lab.</p>
+                        <a href="https://pegasus.ep.wisc.edu/" target="_blank" style="color: var(--primary-color); font-size: 0.9rem;">Visit Website</a>
                     </div>
+                </div>
 
-
-                    <div class="single-portfolio col-sm-4 all datascience">
-                        <div class="relative">
-                            <div class="thumb">
-                                <div class="overlay overlay-bg"></div>
-                                <img class="image img-fluid img-modal" src="images/bike.png" alt="">
-                            </div>                             
-                        </div>
-                        <div class="p-inner">
-                            <h4>Bike Sharing Demand Prediction</h4>
-                            <div class="cat">Random-Forest-Regression</div>
-                        </div>                                         
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <span class="date">Mar 2024 - Present</span>
+                        <h3>Likelion_Wisconsin</h3>
+                        <p><strong>Founder</strong></p>
+                        <p>Founded the Wisconsin Chapter of LikeLion, a student-run Tech Entrepreneurship Community.</p>
+                        <a href="https://likelion-projectteam.github.io/" target="_blank" style="color: var(--primary-color); font-size: 0.9rem;">Visit Website</a>
                     </div>
+                </div>
 
-                    <div class="single-portfolio col-sm-4 all datavisualization">
-                        <div class="relative">
-                            <div class="thumb">
-                                <div class="overlay overlay-bg"></div>
-                                <img class="image img-fluid img-modal" src="images/pegasusGUI.png" alt="">
-                            </div>
-                        </div>
-                        <div class="p-inner">
-                            <h4>Pegasus GUI</h4>
-                            <div class="cat">Electromagnetic Data Analysis</div>
-                        </div>                                         
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <span class="date">Oct 2023 - Jan 2024</span>
+                        <h3>ORS Bearing Inc.</h3>
+                        <p><strong>Business Analyst Intern</strong></p>
+                        <p>Analyzed global machine tool market data to identify trends and support strategy.</p>
                     </div>
-    
-                   <div class="single-portfolio col-sm-4 all datascience">
-                        <div class="relative">
-                            <div class="thumb">
-                                <div class="overlay overlay-bg"></div>
-                                <img class="image img-fluid img-modal" src="images/categorical.png" alt="Categorical Feature Encoding Challenge">
-                            </div>
-                        </div>
-                        <div class="p-inner">
-                            <h4>Categorical Feature Encoding Challenge</h4>
-                            <div class="cat">Logistic-Regression</div>
-                        </div>
-                    </div>
+                </div>
 
-                    <div class="single-portfolio col-sm-4 all datascience">
-                        <div class="relative">
-                            <div class="thumb">
-                                <div class="overlay overlay-bg"></div>
-                                <img class="image img-fluid img-modal" src="images/cactus.png" alt="Aerial Cactus Identification">
-                            </div>
-                        </div>
-                        <div class="p-inner">
-                            <h4>Aerial Cactus Identification</h4>
-                            <div class="cat">Convolutional-Neural-Network(CNN)</div>
-                        </div>
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <span class="date">Jun 2024</span>
+                        <h3>AI4Fusion</h3>
+                        <p>Selected for a fully funded, two-week intensive ML/AI course at the College of William and Mary.</p>
                     </div>
+                </div>
 
-                    <div class="single-portfolio col-sm-4 all datascience">
-                        <div class="relative">
-                            <div class="thumb">
-                                <div class="overlay overlay-bg"></div>
-                                <img class="image img-fluid img-modal" src="images/future_sales.png" alt="Predict Future Sales">
-                            </div>
-                        </div>
-                        <div class="p-inner">
-                            <h4>Predict Future Sales</h4>
-                            <div class="cat">LightGBM</div>
-                        </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <span class="date">Jan 2022 - Jul 2023</span>
+                        <h3>Republic of Korea Army</h3>
+                        <p><strong>Radar Operator</strong></p>
+                        <p>Operated Radar systems to track and identify targets over territorial waters.</p>
                     </div>
-
-                    <div class="single-portfolio col-sm-4 all datascience">
-                        <div class="relative">
-                            <div class="thumb">
-                                <div class="overlay overlay-bg"></div>
-                                <img class="image img-fluid img-modal" src="images/time-series.png" alt="LA Crime Trends Analysis">
-                            </div>
-                        </div>
-                        <div class="p-inner">
-                            <h4>LA Crime Trends Analysis</h4>
-                            <div class="cat">Statistical Analysis</div>
-                        </div>
-                    </div>
-
-                    <div class="single-portfolio col-sm-4 all datascience">
-                        <div class="relative">
-                            <div class="thumb">
-                                <div class="overlay overlay-bg"></div>
-                                <img class="image img-fluid img-modal" src="images/porto.png" alt="Porto Seguro’s Safe Driver Prediction">
-                            </div>
-                        </div>
-                        <div class="p-inner">
-                            <h4>Porto Seguro’s Safe Driver Prediction</h4>
-                            <div class="cat">LightGBM</div>
-                        </div>
-                    </div>
-
-                    <div class="single-portfolio col-sm-4 all sql">
-                        <div class="relative">
-                            <div class="thumb">
-                                <div class="overlay overlay-bg"></div>
-                                <img class="image img-fluid img-modal" src="images/mysql.jpg" alt="SQL Business Analytics">
-                            </div>
-                        </div>
-                        <div class="p-inner">
-                            <h4>SQL Business Analytics</h4>
-                            <div class="cat">SQL</div>
-                        </div>
-                    </div>
-
-                    <div class="single-portfolio col-sm-4 all datascience">
-                        <div class="relative">
-                            <div class="thumb">
-                                <div class="overlay overlay-bg"></div>
-                                <img class="image img-fluid img-modal" src="images/spot.png" alt="Cathode Spot Detection">
-                            </div>
-                        </div>
-                        <div class="p-inner">
-                            <h4>Cathode Spot Detection</h4>
-                            <div class="cat">LSTM-AE + XGBoost (anomaly detection)</div>
-                        </div>
-                    </div>
-
-    
                 </div>
             </div>
         </div>
     </section>
-    
-	<!-- .section -->
 
-	<!-- modal_contents -->
-	<div id="myModal1" class="modal">
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Portfolio</h2>
+                <p style="margin-top: 1rem; color: var(--text-light);">Click on any project to view details</p>
+            </div>
+
+            <div class="portfolio-filters fade-in">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="datascience">Data Science</button>
+                <button class="filter-btn" data-filter="datavisualization">Visualization</button>
+                <button class="filter-btn" data-filter="sql">SQL</button>
+            </div>
+
+            <div class="portfolio-grid fade-in">
+                <!-- Project 1 -->
+                <div class="portfolio-item datascience" data-modal-id="modal1">
+                    <div class="portfolio-thumb">
+                        <img src="images/bank.png" alt="Bank Customer Churn Prediction">
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-cat">Reinforcement Learning</span>
+                        <h3 class="portfolio-title">Bank Customer Churn Prediction</h3>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="portfolio-item datascience" data-modal-id="modal2">
+                    <div class="portfolio-thumb">
+                        <img src="images/bike.png" alt="Bike Sharing Demand Prediction">
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-cat">Random Forest Regression</span>
+                        <h3 class="portfolio-title">Bike Sharing Demand Prediction</h3>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="portfolio-item datavisualization" data-modal-id="modal3">
+                    <div class="portfolio-thumb">
+                        <img src="images/pegasusGUI.png" alt="Pegasus GUI">
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-cat">Data Analysis GUI</span>
+                        <h3 class="portfolio-title">Pegasus GUI</h3>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="portfolio-item datascience" data-modal-id="modal4">
+                    <div class="portfolio-thumb">
+                        <img src="images/categorical.png" alt="Categorical Feature Encoding">
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-cat">Logistic Regression</span>
+                        <h3 class="portfolio-title">Categorical Feature Encoding</h3>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="portfolio-item datascience" data-modal-id="modal5">
+                    <div class="portfolio-thumb">
+                        <img src="images/cactus.png" alt="Aerial Cactus Identification">
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-cat">CNN</span>
+                        <h3 class="portfolio-title">Aerial Cactus Identification</h3>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="portfolio-item datascience" data-modal-id="modal6">
+                    <div class="portfolio-thumb">
+                        <img src="images/future_sales.png" alt="Predict Future Sales">
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-cat">LightGBM</span>
+                        <h3 class="portfolio-title">Predict Future Sales</h3>
+                    </div>
+                </div>
+
+                <!-- Project 7 -->
+                <div class="portfolio-item datascience" data-modal-id="modal7">
+                    <div class="portfolio-thumb">
+                        <img src="images/time-series.png" alt="LA Crime Trends Analysis">
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-cat">Statistical Analysis</span>
+                        <h3 class="portfolio-title">LA Crime Trends Analysis</h3>
+                    </div>
+                </div>
+
+                <!-- Project 8 -->
+                <div class="portfolio-item datascience" data-modal-id="modal8">
+                    <div class="portfolio-thumb">
+                        <img src="images/porto.png" alt="Safe Driver Prediction">
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-cat">LightGBM</span>
+                        <h3 class="portfolio-title">Safe Driver Prediction</h3>
+                    </div>
+                </div>
+
+                <!-- Project 9 -->
+                <div class="portfolio-item sql" data-modal-id="modal9">
+                    <div class="portfolio-thumb">
+                        <img src="images/mysql.jpg" alt="SQL Business Analytics">
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-cat">SQL</span>
+                        <h3 class="portfolio-title">SQL Business Analytics</h3>
+                    </div>
+                </div>
+
+                <!-- Project 10 -->
+                <div class="portfolio-item datascience" data-modal-id="modal10">
+                    <div class="portfolio-thumb">
+                        <img src="images/spot.png" alt="Cathode Spot Detection">
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-cat">Anomaly Detection</span>
+                        <h3 class="portfolio-title">Cathode Spot Detection</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links" style="justify-content: center;">
+                <a href="https://github.com/Bonniecoleman" target="_blank" class="social-icon"><span class="icon-github"></span></a>
+                <a href="https://www.linkedin.com/in/beomseong-kim/" target="_blank" class="social-icon"><span class="icon-linkedin22"></span></a>
+            </div>
+            <p class="footer-text">&copy; 2025 Beomseong Kim. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Modal Container -->
+    <div id="projectModal" class="modal">
         <div class="modal-content">
-            <span class="buttonC">&times;</span>
-            <div class="jg modal-subheading" style="margin-bottom: 1em;">Bank Customer Churn Prediction</div>
-            <p class="jg">Resource Code : <a href="https://github.com/Bonniecoleman/Bank-Customer-Churn-Prediction" target="_blank" style="cursor:pointer;color:#6666ff;"> Link </a></p>
-            <p class="jg" style="margin-bottom: 0;">Abstract</p>
-            <p>This project involves predicting customer churn in a bank using Q-learning RL model. The goal is to recommend effective actions to retain customers and improve overall retention rates.</p>
-            <p class="jg" style="margin-bottom: 0;">Main Features</p>
-            <ul>
-                <li>Predict the probability of customer churn based on customer attributes</li>
-                <li>Recommend specific actions to prevent churn, such as personalized offers or enhanced services</li>
-                <li>Provide an interactive Streamlit dashboard for users to input customer details, view the churn prediction probability, and receive recommended actions</li>
-            </ul>
-            <p class="jg" style="margin-bottom: 0;">Development Environment</p> 
-            <ul>
-                <li>Programming Language : Python</li>
-                <li>IDE : PyCharm</li>
-                <li>Dataset URL : <a href="https://www.kaggle.com/datasets/radheshyamkollipara/bank-customer-churn/data" target="_blank" style="cursor:pointer;color:#6666ff;"> Kaggle </a>
-            </ul>
+            <span class="close-modal">&times;</span>
+            <div id="modalBody" class="modal-body">
+                <!-- Content will be injected here -->
+            </div>
         </div>
     </div>
 
-
-    <div id="myModal2" class="modal">
-        <div class="modal-content">
-            <span class="buttonC">&times;</span>
-            <div class="jg modal-subheading" style="margin-bottom: 1em;">Bike Sharing Demand Prediction</div> 
-            <p class="jg">Resource Code : <a href="https://www.kaggle.com/code/beomseongkim/random-forest-regression" target="_blank" style="cursor:pointer;color:#6666ff;"> Link </a></p>
-            <p class="jg" style="margin-bottom: 0;">Abstract</p>
-            <p>This Kaggle project implements a Random Forest Regression model to predict the demand for bike rentals. The model utilizes features like weather conditions, temperature, and seasonal factors to improve prediction accuracy.</p>
-            <p class="jg" style="margin-bottom: 0;">Main Features</p>
-            <ul>
-                <li>Predict rental demand based on weather, season, and other temporal factors</li>
-                <li>Visualize feature importance to understand the impact of different variables</li>
-                <li><b>Private Leaderboard Score:</b> 0.39567</li>
-            </ul>
-            <p class="jg" style="margin-bottom: 0;">Development Environment</p> 
-            <ul>
-                <li>Programming Language : Python</li>
-                <li>IDE : PyCharm</li>
-                <li>Libraries Used : scikit-learn, pandas, matplotlib, seaborn</li>
-                <li>Dataset URL : <a href="https://www.kaggle.com/competitions/bike-sharing-demand/overview" target="_blank" style="cursor:pointer;color:#6666ff;"> Kaggle </a>
-            </ul>
-        </div>
+    <!-- Hidden Modal Contents -->
+    <div class="modal-source" id="modal1">
+        <h2>Bank Customer Churn Prediction</h2>
+        <p><strong>Resource Code:</strong> <a href="https://github.com/Bonniecoleman/Bank-Customer-Churn-Prediction" target="_blank" style="color: var(--primary-color);">GitHub Link</a></p>
+        <h4>Abstract</h4>
+        <p>This project involves predicting customer churn in a bank using Q-learning RL model. The goal is to recommend effective actions to retain customers and improve overall retention rates.</p>
+        <h4>Main Features</h4>
+        <ul>
+            <li>Predict the probability of customer churn based on customer attributes</li>
+            <li>Recommend specific actions to prevent churn, such as personalized offers or enhanced services</li>
+            <li>Provide an interactive Streamlit dashboard for users to input customer details, view the churn prediction probability, and receive recommended actions</li>
+        </ul>
+        <h4>Development Environment</h4>
+        <ul>
+            <li>Programming Language: Python</li>
+            <li>IDE: PyCharm</li>
+            <li>Dataset: Kaggle</li>
+        </ul>
     </div>
 
-    <div id="myModal3" class="modal">
-    <div class="modal-content">
-        <span class="buttonC">&times;</span>
-        <div class="jg modal-subheading" style="margin-bottom: 1em;">Pegasus GUI</div>
-        <p class="jg" style="margin-bottom: 0;">Abstract</p>
-        <p>The Pegasus GUI project is designed to load and analyze electromagnetic data efficiently through a user-friendly PyQt5-based interface. It provides researchers with tools to visualize, calibrate, and process data in real-time, improving the workflow for experimental data analysis.</p>
-        <p class="jg" style="margin-bottom: 0;">Main Features</p>
+    <div class="modal-source" id="modal2">
+        <h2>Bike Sharing Demand Prediction</h2>
+        <p><strong>Resource Code:</strong> <a href="https://www.kaggle.com/code/beomseongkim/random-forest-regression" target="_blank" style="color: var(--primary-color);">Kaggle Link</a></p>
+        <h4>Abstract</h4>
+        <p>This Kaggle project implements a Random Forest Regression model to predict the demand for bike rentals. The model utilizes features like weather conditions, temperature, and seasonal factors to improve prediction accuracy.</p>
+        <h4>Main Features</h4>
+        <ul>
+            <li>Predict rental demand based on weather, season, and other temporal factors</li>
+            <li>Visualize feature importance to understand the impact of different variables</li>
+            <li><strong>Private Leaderboard Score:</strong> 0.39567</li>
+        </ul>
+        <h4>Development Environment</h4>
+        <ul>
+            <li>Programming Language: Python</li>
+            <li>IDE: PyCharm</li>
+            <li>Libraries: scikit-learn, pandas, matplotlib, seaborn</li>
+        </ul>
+    </div>
+
+    <div class="modal-source" id="modal3">
+        <h2>Pegasus GUI</h2>
+        <h4>Abstract</h4>
+        <p>The Pegasus GUI project is designed to load and analyze electromagnetic data efficiently through a user-friendly PyQt5-based interface. It provides researchers with tools to visualize, calibrate, and process data in real-time.</p>
+        <h4>Main Features</h4>
         <ul>
             <li>Load and process raw experimental shot data with customizable configurations</li>
             <li>Plot data in real-time, including time-series and spectrogram visualizations</li>
             <li>Manage data categories dynamically for better control and analysis</li>
         </ul>
-        <p class="jg" style="margin-bottom: 0;">Development Environment</p>
+        <h4>Development Environment</h4>
         <ul>
             <li>Programming Language: Python</li>
-            <li>Libraries Used: PyQt5, Matplotlib, NumPy</li>
-            <li>GUI Framework: PyQt5</li>
-            <li>Key Functions: Real-time plotting, data calibration, user-configurable data handling</li>
+            <li>Libraries: PyQt5, Matplotlib, NumPy</li>
         </ul>
-        <p style="color: red; font-style: italic;">Note: The source code for this project is confidential and will only be disclosed during interviews if necessary.</p>
-    </div>
+        <p style="color: red; font-style: italic;">Note: The source code for this project is confidential.</p>
     </div>
 
-<div id="myModal4" class="modal">
-    <div class="modal-content">
-        <span class="buttonC">&times;</span>
-        <div class="jg modal-subheading" style="margin-bottom: 1em;">Categorical Feature Encoding Challenge</div>
-        <p class="jg">Resource Code:
-            <a href="https://www.kaggle.com/code/beomseongkim/logistic-regression"
-               target="_blank"
-               style="cursor:pointer; color:#6666ff;">
-               Link
-            </a>
-        </p>
-        <p class="jg" style="margin-bottom: 0;">Abstract</p>
-        <p>This project deals with a binary classification problem using a dataset containing a variety of categorical features with different levels of complexity and cardinality. The core objective is to build a robust preprocessing pipeline that can accurately transform each feature into a usable format through one-hot, ordinal, or binary encoding while preserving essential information. By doing so, the goal is to ensure the model can effectively learn from the data and deliver reliable predictive performance.</p>
-        <p class="jg" style="margin-bottom: 0;">Main Features</p>
+    <div class="modal-source" id="modal4">
+        <h2>Categorical Feature Encoding Challenge</h2>
+        <p><strong>Resource Code:</strong> <a href="https://www.kaggle.com/code/beomseongkim/logistic-regression" target="_blank" style="color: var(--primary-color);">Kaggle Link</a></p>
+        <h4>Abstract</h4>
+        <p>This project deals with a binary classification problem using a dataset containing a variety of categorical features. The core objective is to build a robust preprocessing pipeline.</p>
+        <h4>Main Features</h4>
         <ul>
             <li>Comprehensive encoding for binary, nominal, ordinal, and cyclical features</li>
-            <li>Nominal features encoded using one-hot encoding to capture categorical distinctions</li>
-            <li>Ordinal features mapped to numerical scales reflecting their inherent order</li>
-            <li>Cyclical features (days, months) transformed to preserve temporal patterns</li>
-            <li>Systematic hyperparameter tuning using GridSearchCV, optimizing parameters such as regularization strength, solver type, and iteration limits for improved model performance</li>
-            <li><b>Private Leaderboard Score:</b> 0.80761</li>
+            <li>Systematic hyperparameter tuning using GridSearchCV</li>
+            <li><strong>Private Leaderboard Score:</strong> 0.80761</li>
         </ul>
-        <p class="jg" style="margin-bottom: 0;">Development Environment</p>
+        <h4>Development Environment</h4>
         <ul>
             <li>Programming Language: Python</li>
             <li>IDE: Jupyter Notebook</li>
             <li>Libraries: scikit-learn, pandas, seaborn, matplotlib</li>
-            <li>Dataset:
-                <a href="https://www.kaggle.com/competitions/cat-in-the-dat/data"
-                   target="_blank"
-                   style="cursor:pointer; color:#6666ff;">
-                   Kaggle
-                </a>
-            </li>
         </ul>
     </div>
-</div>
 
-<div id="myModal5" class="modal">
-    <div class="modal-content">
-        <span class="buttonC">&times;</span>
-        <div class="jg modal-subheading" style="margin-bottom: 1em;">Aerial Cactus Identification</div>
-        <p class="jg">Resource Code:
-            <a href="https://www.kaggle.com/code/beomseongkim/cnn-model-0-9998"
-               target="_blank"
-               style="cursor:pointer; color:#6666ff;">
-               Link
-            </a>
-        </p>
-        <p class="jg" style="margin-bottom: 0;">Abstract</p>
-        <p>The project focuses on classifying aerial images to detect the presence of cacti using a Convolutional Neural Network (CNN). The dataset contains 17,500 labeled training images and 4,000 test images, all with a resolution of 32 x 32 pixels.</p>
-        <p class="jg" style="margin-bottom: 0;">Main Features</p>
+    <div class="modal-source" id="modal5">
+        <h2>Aerial Cactus Identification</h2>
+        <p><strong>Resource Code:</strong> <a href="https://www.kaggle.com/code/beomseongkim/cnn-model-0-9998" target="_blank" style="color: var(--primary-color);">Kaggle Link</a></p>
+        <h4>Abstract</h4>
+        <p>The project focuses on classifying aerial images to detect the presence of cacti using a Convolutional Neural Network (CNN).</p>
+        <h4>Main Features</h4>
         <ul>
-            <li>Applied random padding, horizontal/vertical flips, rotations, and normalization to improve model robustness</li>
-            <li><b>CNN Architecture:</b>
-                <ul>
-                    <li>Five convolutional layers with Batch Normalization and LeakyReLU activation</li>
-                    <li>Pooling layers for down-sampling and Average Pooling before flattening</li>
-                    <li>Fully connected layers for final binary classification</li>
-                </ul>
-            </li>
-            <li><b>Training Process:</b> Used Adamax optimizer with a learning rate of 0.00006 and CrossEntropyLoss for 70 epochs</li>
-            <li><b>Evaluation Metrics:</b> Used ROC-AUC to assess the model's binary classification performance</li>
-            <li><b>Private Leaderboard Score:</b> 0.9998</li>
+            <li>Applied random padding, horizontal/vertical flips, rotations, and normalization</li>
+            <li>CNN Architecture with five convolutional layers</li>
+            <li><strong>Private Leaderboard Score:</strong> 0.9998</li>
         </ul>
-        <p class="jg" style="margin-bottom: 0;">Development Environment</p>
+        <h4>Development Environment</h4>
         <ul>
-            <li><b>Programming Language:</b> Python</li>
-            <li><b>IDE:</b> Jupyter Notebook</li>
-            <li><b>Libraries:</b> PyTorch, torchvision, pandas, matplotlib, scikit-learn, OpenCV</li>
-            <li>Dataset:
-                <a href="https://www.kaggle.com/competitions/aerial-cactus-identification/data"
-                   target="_blank"
-                   style="cursor:pointer; color:#6666ff;">
-                   Kaggle
-                </a>
-            </li>
+            <li>Programming Language: Python</li>
+            <li>Libraries: PyTorch, torchvision, pandas, matplotlib, scikit-learn, OpenCV</li>
         </ul>
     </div>
-</div>
 
-<div id="myModal6" class="modal">
-    <div class="modal-content">
-        <span class="buttonC">&times;</span>
-        <div class="jg modal-subheading" style="margin-bottom: 1em;">Predict Future Sales</div>
-        <p class="jg">Resource Code:
-            <a href="https://www.kaggle.com/code/beomseongkim/lightgbm-0-87442"
-               target="_blank"
-               style="cursor:pointer; color:#6666ff;">
-               Link
-            </a>
-        </p>
-        <p class="jg" style="margin-bottom: 0;">Abstract</p>
-        <p>This project forecasts monthly sales based on historical daily sales data from a Russian software firm(1C Company). The workflow emphasizes capturing time-series characteristics by aggregating data at the monthly level and applying various preprocessing steps.</p>
-        <p class="jg" style="margin-bottom: 0;">Main Features</p>
-                <ul>
-            <li><b>Data Preprocessing:</b>
-                <ul>
-                    <li>Identified and removed outliers in price and sales volume to stabilize training</li>
-                    <li>Standardized shop IDs by merging names that appeared as duplicates due to slight variations</li>
-                </ul>
-            </li>
-            <li><b>Time-Series Structure:</b>
-                <ul>
-                    <li>Organized data by month (0–33) and treated the 34th month (November 2015) as the test set</li>
-                    <li>Created lag features for the past three months of sales, average price, and transaction counts</li>
-                </ul>
-            </li>
-            <li><b>Derived Variables:</b>
-                <ul>
-                    <li>Included the month a product was first sold (first_sold_month) to identify newly introduced items</li>
-                    <li>Calculated metrics like sales change rates and average lagged sales to capture trends</li>
-                </ul>
-            </li>
-            <li><b>Feature Engineering:</b>
-                <ul>
-                    <li>Converted categorical columns such as city and major_category with label encoding for the model</li>
-                    <li>Used downcasting on numeric columns to reduce memory usage, given the large data size</li>
-                </ul>
-            </li>
-            <li><b>Training Process:</b>
-                <ul>
-                    <li>Employed LightGBM, specifying categorical features like city and shop_id to reflect time-series factors</li>
-                    <li>Used months 0–32 for training, month 33 for validation, and month 34 for testing</li>
-                    <li>Clipped predictions between 0 and 20 and optimized for RMSE</li>
-                </ul>
-            </li>
-            <li><b>Evaluation Metrics:</b> RMSE was used to measure how closely the predicted sales matched actual figures</li>
-            <li><b>Public Leaderboard Score:</b> 0.87442 (top 10.2%)</li>
+    <div class="modal-source" id="modal6">
+        <h2>Predict Future Sales</h2>
+        <p><strong>Resource Code:</strong> <a href="https://www.kaggle.com/code/beomseongkim/lightgbm-0-87442" target="_blank" style="color: var(--primary-color);">Kaggle Link</a></p>
+        <h4>Abstract</h4>
+        <p>This project forecasts monthly sales based on historical daily sales data from a Russian software firm.</p>
+        <h4>Main Features</h4>
+        <ul>
+            <li>Data Preprocessing and Outlier Removal</li>
+            <li>Time-Series Feature Engineering (lags, trends)</li>
+            <li>LightGBM Model Training</li>
+            <li><strong>Public Leaderboard Score:</strong> 0.87442</li>
         </ul>
-            <li><b>Programming Language:</b> Python</li>
-            <li><b>IDE:</b> Jupyter Notebook</li>
-            <li><b>Libraries:</b> pandas, NumPy, scikit-learn, LightGBM, seaborn, matplotlib</li>
-            <li>Dataset:
-                <a href="https://www.kaggle.com/code/beomseongkim/lightgbm-0-87442/input"
-                   target="_blank"
-                   style="cursor:pointer; color:#6666ff;">
-                   Kaggle
-                </a>
-            </li>
+        <h4>Development Environment</h4>
+        <ul>
+            <li>Programming Language: Python</li>
+            <li>Libraries: pandas, NumPy, scikit-learn, LightGBM</li>
         </ul>
     </div>
-</div>
 
-
-
-<div id="myModal7" class="modal">
-    <div class="modal-content">
-        <span class="buttonC">&times;</span>
-        <div class="jg modal-subheading" style="margin-bottom: 1em;">LA Crime Trends Analysis</div>
-        <p class="jg">Resource Code:
-            <a href="https://github.com/Bonniecoleman/LA-Crime-Trends-Pre-Post-COVID"
-               target="_blank"
-               style="cursor:pointer; color:#6666ff;">
-               GitHub Repository
-            </a>
-        </p>
-        <p class="jg" style="margin-bottom: 0;">Abstract</p>
-        <p>This project examines crime trends in Los Angeles from 2010 to the present, with a particular focus on comparing crime rates and types before and after the COVID-19 pandemic. The analysis combines statistical testing with visual exploration to uncover significant shifts in crime proportions and rates.</p>
-        <p class="jg" style="margin-bottom: 0;">Main Features</p>
+    <div class="modal-source" id="modal7">
+        <h2>LA Crime Trends Analysis</h2>
+        <p><strong>Resource Code:</strong> <a href="https://github.com/Bonniecoleman/LA-Crime-Trends-Pre-Post-COVID" target="_blank" style="color: var(--primary-color);">GitHub Link</a></p>
+        <h4>Abstract</h4>
+        <p>This project examines crime trends in Los Angeles from 2010 to the present, comparing crime rates before and after the COVID-19 pandemic.</p>
+        <h4>Main Features</h4>
         <ul>
-            <li><b>Data Cleaning:</b>
-                <ul>
-                    <li>Standardized and combined data from two datasets (2010–2019 and 2020–present)</li>
-                    <li>Addressed missing values and reformatted date fields for time-series analysis</li>
-                </ul>
-            </li>
-            <li><b>Crime Categorization:</b>
-                <ul>
-                    <li>Classified crimes into violent, property, and sex crimes based on descriptions</li>
-                    <li>Created additional columns for period (Pre-COVID vs. Post-COVID) for statistical comparison</li>
-                </ul>
-            </li>
-            <li><b>Feature Engineering:</b>
-                <ul>
-                    <li>Generated proportions of violent, property, and sex crimes for each period</li>
-                    <li>Calculated monthly total crime counts to assess overall trends</li>
-                </ul>
-            </li>
-            <li><b>Statistical Analysis:</b>
-                <ul>
-                    <li>Applied a difference-of-proportions test to compare violent crime proportions pre and post-COVID</li>
-                    <li>Conducted a Welch Two-Sample t-test to compare monthly average crime rates</li>
-                </ul>
-            </li>
-            <li><b>Visualization:</b>
-                <ul>
-                    <li>Plotted time series of violent, property, and sex crimes from 2010 to the present</li>
-                    <li>Visualized crime proportions with bar charts for comparison</li>
-                </ul>
-            </li>
-            <li><b>Programming Language:</b> R</li>
-            <li><b>IDE:</b> R-Studio</li>
-            <li><b>Libraries:</b> tidyverse, lubridate, ggplot2, dplyr, knitr, rmarkdown</li>
-            <li>Dataset:
-                <a href="https://catalog.data.gov/dataset/crime-data-from-2020-to-present"
-                   target="_blank"
-                   style="cursor:pointer; color:#6666ff;">
-                   Data.gov
-                </a>
-            </li>
+            <li>Data Cleaning and Standardization</li>
+            <li>Crime Categorization (Violent, Property, Sex crimes)</li>
+            <li>Statistical Analysis (t-tests, difference-of-proportions)</li>
+            <li>Visualization of trends</li>
+        </ul>
+        <h4>Development Environment</h4>
+        <ul>
+            <li>Programming Language: R</li>
+            <li>Libraries: tidyverse, lubridate, ggplot2, dplyr</li>
         </ul>
     </div>
-</div>
 
-
-<div id="myModal8" class="modal">
-    <div class="modal-content">
-        <span class="buttonC">&times;</span>
-        <div class="jg modal-subheading" style="margin-bottom: 1em;">Porto Seguro’s Safe Driver Prediction</div>
-        <p class="jg">Resource Code:
-            <a href="https://www.kaggle.com/code/beomseongkim/lightgbm-0-29158"
-               target="_blank"
-               style="cursor:pointer; color:#6666ff;">
-               Link
-            </a>
-        </p>
-
-        <p class="jg" style="margin-bottom: 0;">Abstract</p>
-        <p>
-            This project deals with identifying the likelihood of a driver initiating an insurance claim. The data is anonymized
-            and contains various types of features, such as binary indicators, categorical attributes, and continuous values.
-            I explore effective preprocessing methods to handle missing values and remove uninformative variables, then
-            apply hyperparameter tuning with Bayesian Optimization for maximum predictive accuracy.
-        </p>
-
-        <p class="jg" style="margin-bottom: 0;">Main Features</p>
+    <div class="modal-source" id="modal8">
+        <h2>Porto Seguro’s Safe Driver Prediction</h2>
+        <p><strong>Resource Code:</strong> <a href="https://www.kaggle.com/code/beomseongkim/lightgbm-0-29158" target="_blank" style="color: var(--primary-color);">Kaggle Link</a></p>
+        <h4>Abstract</h4>
+        <p>This project deals with identifying the likelihood of a driver initiating an insurance claim using anonymized data.</p>
+        <h4>Main Features</h4>
         <ul>
-            <li><b>Data Preprocessing:</b>
-                <ul>
-                    <li>Converted -1 into NaN to accurately track real missing values</li>
-                    <li>Identified features with excessive missing data or low predictive power (e.g., ps_calc_* features) and removed them</li>
-                    <li>Encoded nominal (categorical) features using One-Hot Encoding</li>
-                </ul>
-            </li>
-            <li><b>Feature Engineering:</b>
-                <ul>
-                    <li>Aggregated <code>ind</code> features into a single <code>mix_ind</code> column for new combinational signals</li>
-                    <li>Created additional features such as <code>num_missing</code> to capture the extent of missing data per row</li>
-                    <li>Used feature counts (e.g., <code>feature_count</code>) to incorporate frequency information for categorical values</li>
-                </ul>
-            </li>
-            <li><b>Model Training:</b>
-                <ul>
-                    <li>LightGBM was employed, given its efficiency with large datasets and ability to handle missing values</li>
-                    <li>Constructed sparse matrices from processed features to reduce memory usage</li>
-                    <li>Experimented with <b>StratifiedKFold</b> to address the class imbalance</li>
-                </ul>
-            </li>
-            <li><b>Hyperparameter Optimization:</b>
-                <ul>
-                    <li>Bayesian Optimization was used to systematically explore the hyperparameter space</li>
-                    <li>Tuned parameters like <code>num_leaves</code>, <code>lambda_l1</code>, <code>lambda_l2</code>, <code>bagging_fraction</code>, and <code>feature_fraction</code></li>
-                    <li>Fitted multiple models and evaluated their performance on a hold-out validation set using the Gini coefficient</li>
-                </ul>
-            </li>
-            <li><b>Evaluation Metrics:</b>
-                <ul>
-                    <li>The <b>Normalized Gini Coefficient</b> was the primary measure, implemented as a custom function</li>
-                </ul>
-            </li>
-            <li><b>Key Observations:</b>
-                <ul>
-                    <li>Features like <code>ps_ind_14</code> and <code>ps_calc_*</code> were dropped due to weak predictive power or statistical unreliability</li>
-                    <li>The final model used five-fold cross-validation for robust scoring</li>
-                    <li>Minor changes in hyperparameters had a noticeable impact on Gini scores, emphasizing the need for precise tuning</li>
-                </ul>
-            </li>
+            <li>Data Preprocessing and Feature Engineering</li>
+            <li>LightGBM with Bayesian Optimization for hyperparameter tuning</li>
+            <li>Evaluation using Normalized Gini Coefficient</li>
         </ul>
-
+        <h4>Development Environment</h4>
         <ul>
-            <li><b>Programming Language:</b> Python</li>
-            <li><b>IDE:</b> Jupyter Notebook</li>
-            <li><b>Libraries:</b> pandas, NumPy, seaborn, scikit-learn, LightGBM, missingno, matplotlib, Bayesian Optimization</li>
-            <li>Dataset:
-                <a href="https://www.kaggle.com/competitions/porto-seguro-safe-driver-prediction/data"
-                   target="_blank"
-                   style="cursor:pointer; color:#6666ff;">
-                   Kaggle
-                </a>
-            </li>
+            <li>Programming Language: Python</li>
+            <li>Libraries: pandas, NumPy, LightGBM, Bayesian Optimization</li>
         </ul>
     </div>
-</div>
 
-<div id="myModal9" class="modal">
-    <div class="modal-content">
-        <span class="buttonC">&times;</span>
-        <div class="jg modal-subheading" style="margin-bottom: 1em;">SQL Business Analytics</div>
-        <p class="jg">GitHub Repository:
-            <a href="https://github.com/Bonniecoleman/SQL-Business-Analytics"
-               target="_blank"
-               style="cursor:pointer; color:#6666ff;">
-               Link
-            </a>
-        </p>
-
-        <p class="jg" style="margin-bottom: 0;">Overview</p>
-        <p>
-            The <b>SQL Business Analytics</b> repository is a centralized hub for showcasing my analytical projects built using SQL. It demonstrates the practical application of SQL in solving complex business problems and deriving data-driven insights across multiple domains. This repository is structured to grow with projects, each focusing on specific areas of business analysis, ensuring it remains a dynamic and evolving resource.
-        </p>
-
-        <p class="jg" style="margin-bottom: 0;">Projects</p>
-        <ol>
-            <li>
-                <a href="https://github.com/Bonniecoleman/SQL-Business-Analytics/tree/main/Customer%20Value%20and%20Growth%20Project"
-                   target="_blank"
-                   style="cursor:pointer; color:#6666ff; text-decoration: none;">
-                   <strong>Customer Value and Growth Project:</strong>
-                </a>
-                This SQL project explores key aspects of customer behavior, purchase patterns, and product growth. The four analyses include:
-                <ul>
-                    <li><b>Customer Profile Analysis:</b> Understanding demographics, spending habits, and customer segmentation.</li>
-                    <li><b>RFM Analysis:</b> Segmenting customers based on Recency, Frequency, and Monetary values to identify high-value customers.</li>
-                    <li><b>Purchase Cycle Analysis:</b> Evaluating customer purchase intervals and repurchase behavior for better retention strategies.</li>
-                    <li><b>Product Growth Rate Analysis:</b> Analyzing category and brand performance to identify growth opportunities.</li>
-                </ul>
-            </li>
-        </ol>
-
-    </div>
-</div>
-
-<div id="myModal10" class="modal">
-    <div class="modal-content">
-        <span class="buttonC">&times;</span>
-        <div class="jg modal-subheading" style="margin-bottom: 1em;">Cathode Spot Detection</div>
-
-        <p class="jg">Slide Deck:
-            <a href="https://docs.google.com/presentation/d/1fWOctVKvp0kfeMYsL-ng-lo8WPQ462VCkymB6cF_QMw/edit?usp=sharing"
-               target="_blank"
-               style="cursor:pointer; color:#6666ff;">
-               Link
-            </a>
-        </p>
-
-        <p class="jg" style="margin-bottom: 0;">Abstract</p>
-        <p>
-            This project addresses real-time detection of cathode spots in a fusion injector system by analyzing over 10 million voltage data points. An ensemble anomaly detection model combining an LSTM Autoencoder and XGBoost was developed in collaboration with 5 Ph.D. researchers. The goal was to detect anomalous plasma behaviors with high accuracy and low latency, contributing to safer and more efficient fusion experiments.
-        </p>
-
-        <p class="jg" style="margin-bottom: 0;">Main Features</p>
+    <div class="modal-source" id="modal9">
+        <h2>SQL Business Analytics</h2>
+        <p><strong>Resource Code:</strong> <a href="https://github.com/Bonniecoleman/SQL-Business-Analytics" target="_blank" style="color: var(--primary-color);">GitHub Link</a></p>
+        <h4>Overview</h4>
+        <p>A centralized hub for showcasing analytical projects built using SQL.</p>
+        <h4>Projects</h4>
         <ul>
-            <li>Preprocessed massive time-series voltage data (10M+ points) using rolling window segmentation and standardization</li>
-            <li>Constructed an LSTM Autoencoder to learn normal voltage patterns and detect deviations</li>
-            <li>Used XGBoost as a second-stage classifier to refine anomaly scoring based on reconstruction error and handcrafted statistical features</li>
-            <li>Achieved 90% recall, 85% precision, reduced false positives by 45%, and detection latency by 60%</li>
-            <li>Performed extensive threshold calibration and post-processing to ensure real-time deployment feasibility</li>
+            <li>Customer Profile Analysis</li>
+            <li>RFM Analysis</li>
+            <li>Purchase Cycle Analysis</li>
+            <li>Product Growth Rate Analysis</li>
         </ul>
-
-        <p class="jg" style="margin-bottom: 0;">Development Environment</p>
-        <ul>
-            <li><b>Programming Language:</b> Python</li>
-            <li><b>IDE:</b> Visual Studio Code</li>
-            <li><b>Libraries:</b> PyTorch, scikit-learn, XGBoost, NumPy, pandas, Matplotlib</li>
-        </ul>
-
-        <p style="color: red; font-style: italic;">Note: The source code is confidential due to research agreement terms, but technical details are available upon request or during interviews.</p>
     </div>
-</div>
 
+    <div class="modal-source" id="modal10">
+        <h2>Cathode Spot Detection</h2>
+        <p><strong>Slide Deck:</strong> <a href="https://docs.google.com/presentation/d/1fWOctVKvp0kfeMYsL-ng-lo8WPQ462VCkymB6cF_QMw/edit?usp=sharing" target="_blank" style="color: var(--primary-color);">Link</a></p>
+        <h4>Abstract</h4>
+        <p>Real-time detection of cathode spots in a fusion injector system using an ensemble anomaly detection model (LSTM Autoencoder + XGBoost).</p>
+        <h4>Main Features</h4>
+        <ul>
+            <li>Preprocessed 10M+ voltage data points</li>
+            <li>LSTM Autoencoder for anomaly detection</li>
+            <li>XGBoost classifier for refinement</li>
+            <li>Achieved 90% recall and 85% precision</li>
+        </ul>
+        <h4>Development Environment</h4>
+        <ul>
+            <li>Programming Language: Python</li>
+            <li>Libraries: PyTorch, scikit-learn, XGBoost</li>
+        </ul>
+        <p style="color: red; font-style: italic;">Note: The source code is confidential.</p>
+    </div>
 
-	<footer class="site-footer">
-		<div class="container">
-			<div class="row mb-5">
-				<div class="col-md-12 text-center">
-					<p>
-						<a href="https://github.com/Bonniecoleman" class="social-item"><span class="icon-github"></span></a>
-                        <a href="https://www.linkedin.com/in/beomseong-kim/" class="social-item"><span class="icon-linkedin22"></span></a>
-					</p>
-				</div>
-			</div>
-			
-		</div>
-	</footer>
-
-
-
-
-	<script src="js/vendor/jquery.min.js"></script>
-	<script src="js/vendor/jquery-migrate-3.0.1.min.js"></script>
-	<script src="js/vendor/popper.min.js"></script>
-	<script src="js/vendor/bootstrap.min.js"></script>
-
-	<script src="js/vendor/jquery.easing.1.3.js"></script>
-
-	<script src="js/vendor/jquery.stellar.min.js"></script>
-	<script src="js/vendor/jquery.waypoints.min.js"></script>
-
-	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-	<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-	<script src="js/custom.js"></script>
-	<script src="js/modal.js"></script>
-    </body>
-    </html>
+    <script src="script.js"></script>
+</body>
+</html>
